@@ -1,0 +1,171 @@
+.*,*:before,*;after{
+	margin:0;
+	padding: 0;
+  box-sizing: border-box;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:  #edf7f6;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:  #edf7f6;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:  #edf7f6;
+}
+.contianer-fluid{
+	
+	display: inline-block;
+  position:absolute;
+  top:0px;
+  right:0px;
+  left:0px;	
+}
+.navbar{
+	width: 100%;
+	height: 7%;
+ color: #219e90;
+ font-weight: bolder;
+	font-size: 32px;
+	text-align: center;
+	border-bottom: 2px solid;
+
+}
+.row{
+	  display: grid;
+	  background-color: #219e90;
+  grid-template-columns: 20% 80%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.side-bar{
+	padding-top: 40px;
+
+
+}
+.center-tab{
+	background-color: #edf7f6;
+	border-radius: 30px 0px 0px 30px;
+	height: 100%;
+}
+.side-bar *{
+	display: block;
+	font-size: 18px;
+	margin: 20px;
+
+}
+.side-bar input,select{
+	padding:5px;
+	background-color:transparent;
+	color: #edf7f6;
+	border:none;
+	border-bottom: 2px solid  #edf7f6;
+	outline: none;
+}
+select:focus{
+	background-color:#219e90;
+}
+
+.btn{
+	display: inline-block;
+	border: 1px solid ;
+	padding:2px 10px;
+	cursor: pointer;
+	color: #219e90;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+.btn:hover{
+		 box-shadow: 0px 4px 4px rgba(80,80,80,.4);
+	}
+
+.container{
+	margin:0% 10%;
+}
+
+.flights{
+	width: 80%;
+	height: 350px;
+	margin-top: 20px;
+	border-radius: 20px;
+	color: #219e90;
+  box-shadow: 0px 4px 4px rgba(80,80,80,.4);
+}
+.flights-navbar{
+	 display: grid;
+  grid-template-columns: 65% 35%;
+	height: 120px;
+	border-radius: 20px;
+	color: #edf7f6;
+	background-color: #219e90;
+
+	}
+	.grid{
+		display: grid;
+  grid-template-columns: 50% 50%;
+	}
+	.m-5{
+		margin-left: 20px;
+		
+	}
+	.m-3{
+		margin:10px 30px;
+	}
+	.mt-4{
+		margin-top: 40px;
+	}
+	.pt-2{
+		padding-top: 20px;
+	}
+	.flights-heading1{
+
+		color: #edf7f6;
+		margin-left: 50px;
+		
+	}
+	.flights-heading{
+		font-size: 22px;
+		font-weight: bold;
+		color: #219e90;
+		margin-left:30px;
+	
+
+	}
+	.flights-btn{
+		margin-left:30px;
+			margin-top: 20px;
+			border:none;
+	border-radius: 5px;
+	color: #edf7f6;
+	background-color: #219e90;
+	font-size: 16px;
+padding:5px 10px;
+cursor: pointer;
+
+	}
+	.flights-btn:hover{
+		 box-shadow: 0px 4px 4px rgba(80,80,80,.4);
+	}
+
+
+
+	@media only screen and (max-width: 1200px){
+.row{
+	  
+	   grid-template-columns: 100%;
+  grid-template-rows: 35% 65%;
+   min-height: 100vh;
+  height: 100%;
+}
+
+.side-bar *{
+	display: inline-block;
+
+	font-size: 18px;
+	margin: 20px;
+
+}
+	}
